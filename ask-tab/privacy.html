@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How AskTab handles account information, conversations, browser content, connected services, and your data choices.">
+  <title>Privacy Policy — AskTab</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #202339; background: #f7f8fc; line-height: 1.7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #4f46c7; text-underline-offset: .2em; overflow-wrap: anywhere; }
+    a:hover { color: #312880; }
+    a:focus-visible { outline: 3px solid #7971ec; outline-offset: 4px; border-radius: 2px; }
+    .skip { position: absolute; top: -80px; left: 16px; background: white; padding: 8px 16px; z-index: 2; }
+    .skip:focus { top: 12px; }
+    header, main, footer { width: min(100% - 40px, 900px); margin-inline: auto; }
+    header { padding: 28px 0; display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 700; }
+    header img { width: 40px; height: 40px; }
+    main { padding: clamp(24px, 5vw, 56px); background: #fff; border: 1px solid #e4e6f0; border-radius: 20px; box-shadow: 0 12px 36px #24254d06; }
+    .eyebrow { color: #655bd2; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin: 0 0 8px; }
+    h1 { font-size: clamp(32px, 6vw, 48px); line-height: 1.15; letter-spacing: -.035em; margin: 0 0 16px; }
+    h2 { font-size: 23px; line-height: 1.35; letter-spacing: -.02em; margin: 0 0 16px; scroll-margin-top: 24px; }
+    h3 { font-size: 17px; line-height: 1.5; margin: 24px 0 8px; }
+    p { margin: 0 0 16px; }
+    .muted, footer { color: #64697e; font-size: 14px; }
+    .summary { background: #f3f2ff; padding: 20px 24px; border-radius: 12px; margin: 28px 0; }
+    .summary p:last-child { margin-bottom: 0; }
+    nav { padding: 0 0 28px; }
+    nav ol { columns: 2; padding-left: 22px; margin: 12px 0 0; }
+    nav li { padding: 3px 0; break-inside: avoid; }
+    section { border-top: 1px solid #e9eaf2; padding-top: 30px; margin-top: 30px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 9px; }
+    footer { padding: 28px 0 40px; }
+    @media (max-width: 560px) { header, main, footer { width: calc(100% - 24px); } header { padding: 20px 4px; } main { border-radius: 14px; padding: 24px 20px; } nav ol { columns: 1; } .summary { padding: 18px; } }
+    @media print { body { background: white; } header, main, footer { width: 100%; } main { border: none; box-shadow: none; padding: 0; } nav, .skip { display: none; } section { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#policy">Skip to privacy policy</a>
+  <header><img src="icon.png" alt="" width="40" height="40"><span>AskTab</span></header>
+  <main id="policy">
+    <p class="eyebrow">Your data &amp; your choices</p>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Last updated September 27, 2026 · English</p>
+    <p>AskTab is maintained by hicms. This policy describes how the AskTab browser extension and its supporting AskTab service handle information when you use chat, browser tools, memory, voice, backups, and connected accounts.</p>
+    <div class="summary">
+      <p><strong>At a glance</strong></p>
+      <p>AskTab stores conversations and settings in your browser. Remote AI features send the relevant content to the AskTab service and its configured processing providers. Memory and server backups can also store content on the service. Connecting another account enables the data flows described below.</p>
+    </div>
+    <nav aria-label="Policy contents">
+      <strong>On this page</strong>
+      <ol>
+        <li><a href="#information">Information we handle</a></li>
+        <li><a href="#purposes">How information is used</a></li>
+        <li><a href="#sharing">Services and data sharing</a></li>
+        <li><a href="#retention">Storage and retention</a></li>
+        <li><a href="#choices">Your controls and deletion</a></li>
+        <li><a href="#google">Google API data</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#contact">Contact and updates</a></li>
+      </ol>
+    </nav>
+    <section aria-labelledby="information">
+      <h2 id="information">1. Information we handle</h2>
+      <ul>
+        <li><strong>Account information.</strong> Your email address, account identifier, password submitted during registration or sign-in, and session tokens. The service stores a password hash rather than your plain-text password.</li>
+        <li><strong>Conversations and files.</strong> Prompts, responses, attachments, generated documents, workspace files, saved memory, and tool inputs and results. Content included in an AI request may contain personal or sensitive information you supply or ask the assistant to retrieve.</li>
+        <li><strong>Browser content and actions.</strong> Tab titles and URLs, page text and elements, screenshots, and information involved in browser tasks. Browser tools can interact with signed-in pages and therefore may access information available in those pages.</li>
+        <li><strong>Voice.</strong> Audio submitted for transcription, transcripts, and text submitted for speech generation.</li>
+        <li><strong>Connected accounts.</strong> If you authorize Google tools, the granted access can include Gmail messages and drafts, calendar events, Drive files, and account information. If you connect Telegram or WhatsApp, the service handles connection credentials, messaging identities, messages, and supported media.</li>
+        <li><strong>Preferences and operational records.</strong> Agent and tool settings, scheduled tasks, task execution records, model selections, and diagnostic errors needed to operate and troubleshoot the assistant.</li>
+      </ul>
+    </section>
+    <section aria-labelledby="purposes">
+      <h2 id="purposes">2. How information is used</h2>
+      <p>AskTab uses information to authenticate your account, answer requests, perform browser and connected-service tasks, retrieve relevant memory, process speech, deliver messages, run configured scheduled tasks, and save or restore backups. Diagnostic records support troubleshooting and service operation.</p>
+      <p>Relevant conversation history, files, page content, and tool results may be included in subsequent model requests so the assistant can continue a task. A configured scheduled task or messaging integration can operate when the chat interface is not open.</p>
+      <p>AskTab does not use your conversations, files, or connected-account content to train AI models. We do not sell user data or use it for personalized advertising, unrelated profiling, credit scoring, or lending decisions. Processing providers' own retention and data-use terms also apply to requests they receive.</p>
+    </section>
+    <section aria-labelledby="sharing">
+      <h2 id="sharing">3. Services and data sharing</h2>
+      <p>Remote AI requests go through the AskTab service to the provider configured for the selected model. Search sends search terms to the configured search provider. Transcription, speech generation, and memory embeddings may use separate processing providers. These recipients process the information necessary for the requested feature.</p>
+      <h3>AI models and API gateways</h3>
+      <p>The model services used by AskTab include Google (Gemini), xAI (Grok), Anthropic (Claude), OpenAI (GPT), Doubao, Kimi, MiniMax, GLM, DeepSeek, and MiMo. Availability depends on the service configuration and your model selection. Your content is sent to the route used for that request, not to every model service on this list.</p>
+      <p>A model name does not necessarily mean that AskTab contacts the model developer directly. The reviewed service configuration includes direct API routes at api.deepseek.com and api.minimax.cn, and gateway routes at www.packyapi.ai (PackyAPI), codex.vigoai.cn, and grok.heyvigo.ai. When a gateway is used, it receives the request content and forwards it to its upstream processing service. Selected speech and embedding routes also receive the audio, text, or memory content needed for those features.</p>
+      <p>Provider retention and training terms depend on the actual API service, route, and applicable account settings. AskTab's commitment not to train on your content does not make a blanket promise about independent providers. Contact us before submitting sensitive content if you need to establish the recipient or its processing terms for a particular model.</p>
+      <h3>Search, connected accounts, and hosting</h3>
+      <ul>
+        <li><strong>Search:</strong> configured search services include Exa (api.exa.ai), Tavily (api.tavily.com), and UCloud ModelVerse (api.modelverse.cn). Search terms are sent to the active search route. See <a href="https://exa.ai">Exa</a>, <a href="https://www.tavily.com/privacy">Tavily's Privacy Policy</a>, and <a href="https://www.modelverse.cn">UCloud ModelVerse</a>.</li>
+        <li><strong>Google:</strong> authorized Google tools communicate with Gmail, Calendar, and Drive. Retrieved information may be included in assistant requests when used for a task. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+        <li><strong>Telegram and WhatsApp:</strong> connected messaging features exchange messages and supported media through these services and the AskTab service. See <a href="https://telegram.org/privacy">Telegram's Privacy Policy</a> and <a href="https://www.whatsapp.com/legal/privacy-policy">WhatsApp's Privacy Policy</a>.</li>
+        <li><strong>Websites and services used in your tasks:</strong> opening pages, submitting forms, sending messages, or making tool requests shares the relevant information with their recipients under those services' own policies.</li>
+        <li><strong>This policy website:</strong> GitHub Pages hosts this static page. The page has no analytics scripts, external fonts, or tracking cookies. GitHub may process connection information, including IP addresses, to provide and secure hosting. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</li>
+      </ul>
+      <p>Services may process information in countries other than your own. A provider's separate terms apply to its processing; our commitments in this policy apply to AskTab.</p>
+    </section>
+    <section aria-labelledby="retention">
+      <h2 id="retention">4. Storage and retention</h2>
+      <ul>
+        <li><strong>In your browser:</strong> settings and session information use extension storage; chats, messages, workspace files, generated artifacts, and task records use a local browser database. Archiving a chat retains it. Local retention may also depend on your cleanup settings.</li>
+        <li><strong>Ordinary AI requests:</strong> the AskTab service relays chat and speech requests for processing rather than maintaining a separate archive of their contents. This does not include saved memory, user-created backups, messaging queues, or data retained by processing providers.</li>
+        <li><strong>Accounts:</strong> the service stores your account record, password hash, and session records. Signing out ends the current session; it does not delete the account.</li>
+        <li><strong>Memory:</strong> memory files and conversation transcripts used for memory search can be stored and indexed on the service. Documents are updated or removed through memory synchronization and deletion operations. The current memory store has no general age-based expiry.</li>
+        <li><strong>Backups:</strong> server backup is optional and disabled by default. Uploaded backup revisions remain until deleted or removed by the “keep latest” operation. A backup is a separate copy of your data.</li>
+        <li><strong>Messaging queues:</strong> the current service removes queued messages and stored media after processing is acknowledged. Uncollected messages are subject to a three-day expiry and periodic cleanup; queues are also limited to 500 messages per user, with older entries removed when the limit is exceeded.</li>
+      </ul>
+      <p>Operational diagnostics can include errors and service status information used for troubleshooting. Account records, saved memory, and backups do not share the messaging queue's three-day expiry. You can request help with deletion using the contact address below. Data already received by an external provider is subject to that provider's applicable retention and deletion terms.</p>
+    </section>
+    <section aria-labelledby="choices">
+      <h2 id="choices">5. Your controls and deletion</h2>
+      <p>You can manage or delete conversations and workspace data using the extension's available controls, delete server backup revisions, disable scheduled tasks and automatic backups, and disconnect messaging integrations. You can revoke Google access in your Google Account permissions.</p>
+      <p>Deleting local data or uninstalling AskTab does not automatically remove separate server backups, indexed memory, connected-service records, or data already sent to another provider. Archiving a conversation is not deletion. Contact us about account deletion or server-side data that is not covered by an available control.</p>
+      <p>Avoid submitting information you do not want included in an assistant task. Review the page, file, and account access needed by a tool before using that feature.</p>
+    </section>
+    <section aria-labelledby="google">
+      <h2 id="google">6. Google API data</h2>
+      <p>Google tools operate within the OAuth scopes granted by the user. Those scopes determine which connected Google information the assistant can read or change.</p>
+      <p>AskTab follows the Limited Use requirements of the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store User Data Policy</a> when handling information received from Google APIs. We use that information only to provide or improve the assistant features described to users.</p>
+      <p>Transfers are limited to delivering those features, complying with legal obligations, addressing security or abuse, or a business transfer with prior user consent. Human access is limited to consented support, security needs, legal requirements, or aggregated and anonymized internal operations. Google API data is not sold, used for personalized advertising, used for credit or lending decisions, or used by AskTab to train AI models.</p>
+    </section>
+    <section aria-labelledby="security">
+      <h2 id="security">7. Security</h2>
+      <p>The service uses password hashing and authenticated sessions. Access to service records such as backups and memory is associated with the user's account. Browser permissions and Google authorization scopes govern the extension's access to browser and Google features.</p>
+      <p>Information provided to remote AI is processed by the service and its configured providers; it is not end-to-end encrypted against those recipients. No storage or transmission system can guarantee complete security.</p>
+    </section>
+    <section aria-labelledby="contact">
+      <h2 id="contact">8. Contact and updates</h2>
+      <p>For privacy questions or account and data deletion requests, contact <a href="mailto:zj274072663@gmail.com">zj274072663@gmail.com</a>. Please identify the account and data involved so we can verify and handle your request. Do not include passwords or API keys.</p>
+      <p>We will update this page when the described practices change and revise the date shown at the top. Material changes that require additional disclosure or consent will be communicated through the appropriate product or store notices.</p>
+    </section>
+  </main>
+  <footer>AskTab · Privacy Policy</footer>
+</body>
+</html>
