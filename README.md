@@ -5,7 +5,7 @@ The public AskTab homepage and privacy policy, served by GitHub Pages from `main
 ## Files
 
 - `index.html`: English product homepage, installation instructions, and links.
-- `assets/homepage.css` and `assets/homepage.js`: editorial layout, keyboard-accessible screenshot switcher, and image enlargement.
+- `assets/homepage.css` and `assets/homepage.js`: responsive branded layout, keyboard-accessible screenshot switcher, and image enlargement.
 - `ask-tab/privacy.html`: published privacy policy; keep this URL stable for the Chrome Web Store listing.
 - `assets/brand/`, `assets/screenshots/`, and `assets/social/`: generated copies of shared public images.
 
