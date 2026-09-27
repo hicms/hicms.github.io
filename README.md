@@ -5,7 +5,7 @@ The public AskTab homepage and privacy policy, served by GitHub Pages from `main
 ## Files
 
 - `index.html`: English product homepage, installation instructions, and links.
-- `assets/homepage.css` and `assets/homepage.js`: responsive layout and accessible screenshot preview.
+- `assets/homepage.css` and `assets/homepage.js`: editorial layout, keyboard-accessible screenshot switcher, and image enlargement.
 - `ask-tab/privacy.html`: published privacy policy; keep this URL stable for the Chrome Web Store listing.
 - `assets/brand/`, `assets/screenshots/`, and `assets/social/`: generated copies of shared public images.
 
@@ -28,6 +28,6 @@ From this directory, start a local static server:
 python -m http.server 4173 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:4173/`. Check desktop and mobile layouts, installation links, the screenshot preview (including Escape and keyboard focus), and the privacy policy before committing. Pushing to `main` triggers GitHub Pages deployment. No package installation or build step is required.
+Open `http://127.0.0.1:4173/`. Check desktop and mobile layouts, installation links, both screenshot choices, enlargement, and keyboard controls (arrow keys, Escape, and restored focus), and the privacy policy before committing. Pushing to `main` triggers GitHub Pages deployment. No package installation or build step is required.
 
 The homepage uses local styles, scripts, and images. It contains no analytics or external font requests. Product features, service requirements, and privacy statements must match the actual extension and its service.
